@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: drone
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: gitea
+  namespace: drone
+spec:
+  type: NodePort
+  ports:
+    - name: web
+      port: 30080
+      protocol: TCP
+      targetPort: 3000
+      nodePort: 30080
+    - name: ssh
+      port: 30022
+      protocol: TCP
+      targetPort: 22
+      nodePort: 30022
+  selector:
+    app: gitea

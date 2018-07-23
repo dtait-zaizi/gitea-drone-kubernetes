@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: drone
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: drone-server
+  namespace: drone
+spec:
+  type: NodePort
+  ports:
+    - name: drone
+      port: 8000
+      protocol: TCP
+      targetPort: 8000
+      nodePort: 30567
+  selector:
+    app: drone-server
