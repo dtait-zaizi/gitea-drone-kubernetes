@@ -38,7 +38,7 @@ spec:
             - name: DRONE_GITEA_GIT_USERNAME
               value: "taitd"              
             - name: DRONE_GITEA_GIT_PASSWORD
-              value: "1collective"
+              value: "Password1"
 
             - name: DRONE_DEBUG
               valueFrom:
