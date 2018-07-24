@@ -1,4 +1,4 @@
-# Running Drone in Kuberenetes with Gitea
+# Running Gitea SCM and Drone CI in Kuberenetes
 
 This is an effort to make it simpler to run Drone in Kuberenetes locally for
 developing patterns/solutions/drivers for Drone and kuberenetes.
