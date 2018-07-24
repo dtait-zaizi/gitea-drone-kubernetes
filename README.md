@@ -74,3 +74,5 @@ kubectl apply -f drone-agent-deployment.yaml
   * Go to webhook in gitea for repo you activated
   * Change to `http://drone-server:8000/hook?access_token=xxxxx`
 6. Clone the gitea repo and have fun!
+
+# Status: Not Complete
