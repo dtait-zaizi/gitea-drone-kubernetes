@@ -1,5 +1,7 @@
 # Running Gitea SCM and Drone CI in Kubernetes
 
+Instatiate a Gitea local source code repository (similar to GitHub), and a Drrone instance via docker-compose
+
 This is an effort to make it simpler to run Drone in Kubernetes locally for
 developing patterns/solutions/drivers for Drone and kubernetes.
 
