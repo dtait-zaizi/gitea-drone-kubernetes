@@ -1,7 +1,7 @@
-# Running Gitea SCM and Drone CI in Kuberenetes
+# Running Gitea SCM and Drone CI in Kubernetes
 
-This is an effort to make it simpler to run Drone in Kuberenetes locally for
-developing patterns/solutions/drivers for Drone and kuberenetes.
+This is an effort to make it simpler to run Drone in Kubernetes locally for
+developing patterns/solutions/drivers for Drone and kubernetes.
 
 # Install minikube
 
